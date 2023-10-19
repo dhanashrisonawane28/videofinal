@@ -2,7 +2,7 @@ $blue: #2980b9;
 $blue0: #3498db;
 $blue-1: #74b9ff;
 $white: #ecf0f1;
-$nicegreen: #4ecca3;
+$nicegreen: #2980b9;
 $black: #393e46;
 $spacemono: "Space Mono", monospace;
 $opensans: "Open Sans", sans-serif;
@@ -90,19 +90,19 @@ navbar {
             margin-top: 60px;
             font-size: 24px;
             font-weight: bold;
-            background-color: #4ecca3;
+            background-color: #00c8ff;
             color: white;
             text-align: center;
             padding: 10px 20px;
             border: none;
             border-radius: 10px;
-            border: 2px solid #4ecca3;
+            border: 2px solid #05c5fa;
             transition: 0.3s;
 
             &:hover {
                 background-color: white;
-                border: 2px solid #4ecca3;
-                color: #4ecca3;
+                border: 2px solid #00c3ff;
+                color: #00bfff;
                 cursor: pointer;
             }
 
@@ -121,8 +121,8 @@ navbar {
             border: none;
             border-radius: 10px;
             background-color: white;
-            border: 2px solid #4ecca3;
-            color: #4ecca3;
+            border: 2px solid #02d5ff;
+            color: #00bbff;
 
             &:focus {
                 outline: none;
@@ -189,7 +189,7 @@ navbar {
             width: 100px;
 
             .device {
-                background-color: #4ecca3;
+                background-color: #02d5ff;
                 border-radius: 100px;
                 padding: 10px;
                 width: 40px;

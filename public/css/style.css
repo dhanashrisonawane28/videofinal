@@ -8,6 +8,12 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+/* names */
+.notification {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
 
 .mr-1 {
   margin-right: 10px;
@@ -77,19 +83,19 @@ navbar .logo {
   margin-top: 60px;
   font-size: 24px;
   font-weight: bold;
-  background-color: #4ecca3;
+  background-color: #00b7ff;
   color: white;
   text-align: center;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  border: 2px solid #4ecca3;
+  border: 2px solid #00b7ff;
   transition: 0.3s;
 }
 .main .create-join .createroom-butt:hover {
   background-color: white;
-  border: 2px solid #4ecca3;
-  color: #4ecca3;
+  border: 2px solid #00b7ff;
+  color: #00b7ff;
   cursor: pointer;
 }
 .main .create-join .createroom-butt:focus {
@@ -141,9 +147,9 @@ text-align: center;
 font-size: 24px;
 font-weight: bold;
 color: #232931;
-border: 2px solid #4ecca3;
+border: 2px solid #00b7ff;
 border-radius: 40px;
-background-color: #4ecca3;
+background-color: #00b7ff;
 color: white;
 font-style: bold;
 padding: 10px 10px;
@@ -172,7 +178,7 @@ padding: 10px 10px;
   width: 100px;
 }
 .main .video-cont .settings .device {
-  background-color: #4ecca3;
+  background-color: #00b7ff;
   border-radius: 100px;
   padding: 10px;
   width: 40px;
@@ -245,7 +251,7 @@ padding: 10px 10px;
   font-weight: bold;
   padding: 10px;
   width: 90%;
-  border-bottom: 3px solid #4ecca3;
+  border-bottom: 3px solid #00b7ff;
   color: #393e46;
   height: 40px;
 }
@@ -258,7 +264,7 @@ padding: 10px 10px;
   margin-top: 30px;
   color: #ffffff;
   font-weight: bold;
-  background-color: #4ecca3;
+  background-color: #00b7ff;
   padding: 12px 20px;
   border-radius: 10px;
   transition: opacity 0.5s;
@@ -294,7 +300,7 @@ padding: 10px 10px;
   background: #555;
 }
 .container-room .left-cont {
-  width: 80%;
+  width: 100%;
   background-color: #393e46;
   height: 100vh;
   padding: 50px;
